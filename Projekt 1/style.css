@@ -1,4 +1,13 @@
-
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
 body {
     background-image: url(img/svart\ marmor\ bakgrun.jpg);
     color: white;
@@ -46,6 +55,7 @@ body {
 }
 #Länkarna :hover{
     color: white;
+    text-decoration: underline;
 }
 #Ingredienser{
     padding-left: 10px;
@@ -54,6 +64,7 @@ body {
     margin-right: 25px;
     background-color: darkred;  
     border-radius: 10px;
+    
 
 }
 #Instruktioner{

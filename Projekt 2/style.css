@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #d6d6d6;
+    background-image: url(img/image\ 3.png);
+
+    
+}
+
+
+.sko {
+    width: 100px;
+    gap: 15px;
+    background-color: #d7d9e6;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    height: 100px;
+}
+
+
+.SkoBild {
+width: 100px;
+
+}
+
+.sko-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 20vh, 20vh;
+    background-color: #7C85A4;
+    height: 430px;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.SpringGrabb {
+ width: 150px;
+ height: 320px;
+}
+
+.loggan {
+    width: 300px;
+    height: 150px;
+    margin-top: 8px;
+margin-bottom: 0%;
+flex-direction: column;
+margin-left: 200px;
+margin-right: 200px;
+}
+
+.SpringPojke {
+    
+}
+
+.PojkeSpring{
+    background-color: #ffffff63;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    width: 200px;
+    height: 333px;
+}
+
+.GrabbSpring {
+    background-color: #ffffff63;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    width: 200px;
+    height: 333px;
+}
+
+.SkoClass {
+    color: rgb(0, 0, 0);
+    background-color: rgba(121, 121, 123, 0.4);
+    width: 100px
+}
+
+.SpikLabbsLoggan {
+    height: 150px;
+}
